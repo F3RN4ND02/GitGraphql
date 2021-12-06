@@ -6,8 +6,7 @@ import { Repository } from "./Repository";
 function App() {
   return (
     <ApolloProvider client={client}>
-      <Repository owner="leighhalliday" name="use-supercluster" />
-      <Repository owner="leighhalliday" name="uses.tools" />
+      <Repository/>
     </ApolloProvider>
   );
 }

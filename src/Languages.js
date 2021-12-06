@@ -3,11 +3,9 @@ import { gql } from "apollo-boost";
 
 const LANGUAGE_FRAGMENT = gql`
   fragment LanguageFragment on Repository {
-    languages(first: 5) {
-      nodes {
-        id
-        name
-      }
+    primaryLanguage {
+      name
+      id
     }
   }
 `;
