@@ -1,3 +1,1 @@
-# Colocating GraphQL Fragments
-
-Video: https://youtu.be/yqq0ruWnObA
+# Integrate GIT-GraphQL with MUI card
